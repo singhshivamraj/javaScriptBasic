@@ -9,10 +9,16 @@ body {
     padding: 30px;
 }
 
-.performaceText h1 {
+.heading {
     text-align: center;
 }
 
+/* .H1text1 {
+    text-align: center;
+}
+.spantext{
+    text-align: center;
+} */
 .performaceText {
     display: flex;
     justify-content: center;
@@ -90,5 +96,18 @@ p {
 @media screen and (orientation: portrait) {
     .mainContainer {
         grid-template-columns: 1fr;
+    }
+
+    .performaceText {
+        padding: 0px 0px;
+    }
+
+    .spantext {
+        text-align: start;
+        font-size: 30px;
+    }
+
+    .performaceText p {
+        font-size: 16px;
     }
 }

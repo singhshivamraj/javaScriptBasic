@@ -8,17 +8,20 @@
 </head>
 
 <body>
+    <div class="heading">
+        <h1 class="H1text1">JavaScript performance</h1>
+        <p class="spantext">This task demonstrates JavaScript event handling through three small interactive features:
+        </p>
+    </div>
 
     <div class="performaceText">
-        <h1>JavaScript performance</h1>
-<h4>This task demonstrates JavaScript event handling through three small interactive features:</h4>
-        <p>  
+        <p>
             <b> Live Input Display:</b>
             When the user types something into the input field, the same text is instantly displayed on the screen. <br>
             <b>Addition of Two Numbers:</b>
             The user enters two numbers. On clicking a button, their sum is calculated and displayed on the screen.
 
-<br>
+            <br>
             <b>Background Color Change:</b>
             When a button is clicked, the background color of the webpage changes.
         </p>
@@ -26,30 +29,30 @@
 
     </div>
     <!--  User Input Display -->
-  <div class="mainContainer">
-    <div class="task">
-        <h2>1. Display User Input</h2>
-        <input type="text" id="username" placeholder="Enter your name">
-        <button onclick="showName()">Show</button>
-        <p id="output1"></p>
-    </div>
+    <div class="mainContainer">
+        <div class="task">
+            <h2>1. Display User Input</h2>
+            <input type="text" id="username" placeholder="Enter your name">
+            <button onclick="showName()">Show</button>
+            <p id="output1"></p>
+        </div>
 
-    <!--  Add Two Numbers -->
-    <div class="task">
-        <h2>2. Addition of Two Numbers</h2>
-        <input type="number" id="num1" placeholder="Enter first number">
-        <input type="number" id="num2" placeholder="Enter second number">
-        <button onclick="addNumbers()">Add</button>
-        <p id="output2"></p>
-    </div>
+        <!--  Add Two Numbers -->
+        <div class="task">
+            <h2>2. Addition of Two Numbers</h2>
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <button onclick="addNumbers()">Add</button>
+            <p id="output2"></p>
+        </div>
 
-    <!--  Change Background Color -->
-    <div class="task text3">
-        <h2>3.  Background Color</h2>
-        <button onclick="changeBG()">Change Background</button>
-    </div>
+        <!--  Change Background Color -->
+        <div class="task text3">
+            <h2>3. Background Color</h2>
+            <button onclick="changeBG()">Change Background</button>
+        </div>
 
-  </div>
+    </div>
     <script src="script.js"></script>
 
 </body>
