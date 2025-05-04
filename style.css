@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.performaceText h1 {
+    text-align: center;
+}
+
+.performaceText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.9;
+    padding: 15px 20px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.task {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 h2 {
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output1 {
+    padding: 10px;
+}
+
+#output2 {
+    padding: 10px;
+}
+
+#output3 {
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+
+@media screen and (orientation: portrait) {
+    .mainContainer {
+        grid-template-columns: 1fr;
+    }
+}
